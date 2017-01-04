@@ -7,8 +7,8 @@ numslist = []
 result = ''
 url = 'https://ringzer0team.com/challenges/119/'  # Challenge url
 creds = {
-    'username': '__NightOwl__',     # Replace with your creds
-    'password': '79917991'          # in this dictionnary
+    'username': 'YOURUSERNAME',     # Replace with your creds
+    'password': 'YOURPASSWORD'      # in this dictionnary
 }
 
 
