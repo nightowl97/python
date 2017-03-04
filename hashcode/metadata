@@ -1,0 +1,17 @@
+
+bruteforce:
+    big:
+        python      :   4454943 possible slices
+        java        :   4454943 possible slices
+
+    medium
+        python      :   574834 possible slices
+        java        :   574834 possible slices
+
+    small
+        python      :   149 possible slices
+        java        :   149 possible slices
+
+                    smallinput      mediuminput     Biginput
+    python          < 0.01ms        77 seconds      2482 seconds
+    java            < 0.01ms        1.4 seconds     49 seconds
