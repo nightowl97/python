@@ -1,4 +1,4 @@
-import BeautifulSoup
+import bs4
 import requests
 import os
 import pytesseract
@@ -33,7 +33,7 @@ with requests.session() as s:
     postreq = s.post('https://ringzer0team.com/login', data=creds)
     # Go to challenge page now that we're logged in:
     page = s.get(url).content
-    soup = BeautifulSoup.BeautifulSoup(page)
+    soup = bs4.BeautifulSoup(page)
 
     div = soup.findAll('div', {'class': 'message'})
     imagesrc = div[0].img['src']
