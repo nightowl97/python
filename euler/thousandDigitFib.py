@@ -1,4 +1,3 @@
-import fib
 
 # get index of first 1000-digit Fibonacci number
 

@@ -6,7 +6,7 @@ from itertools import islice, count
 
 
 def isprime(n):
-    return n > 1 and all(n % i for i in islice(count(2), int(sqrt(n) - 1)))
+    return n > 1 and all(n % j for j in islice(count(2), int(sqrt(n) - 1)))
 
 if __name__ == '__main__':
     m = 0   # maximum
@@ -23,4 +23,5 @@ if __name__ == '__main__':
                     print "a: {}, b: {}".format(a, b)
                     m = i
                     break
-                else: break
+                else:
+                    break

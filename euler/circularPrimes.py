@@ -14,6 +14,7 @@ def iscircular(n):
             if not isprime(int(current)):
                 return False
         return True
+
 number = 0
 for i in xrange(1, 1000000):
     if not isprime(i):

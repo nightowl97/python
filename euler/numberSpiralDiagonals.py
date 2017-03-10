@@ -1,5 +1,5 @@
 
-l = [i for i in xrange(1, 9999999)]     # Could use a generator instead but heh, good enough for now.
+l = [i for i in xrange(1, 9999999)]     # heh, good enough for now.
 
 
 def getres(li):
