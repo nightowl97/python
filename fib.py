@@ -17,7 +17,9 @@ def answer(n):
 
     mem = [-1 for i in range(n + 1)]
     return fib(n)
+
+
 if __name__ == '__main__':
     start_time = time.time()
-    print answer(500)
+    print(answer(500))
     print("--- %s seconds ---" % (time.time() - start_time))
